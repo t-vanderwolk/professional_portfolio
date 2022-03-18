@@ -1,15 +1,30 @@
 
 
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Parisienne&family=Press+Start+2P&display=swap');
+
+.aboutMe
+h2 {
+padding-left: 15px;
+margin: 24px;
+display:flex;
+
+}
+.certificates {
+    
+    display:inline;
+    list-style: none;
+   
+    
+
+}
 .topnav {
-justify-content:stretch;
-display:inline block;
-text-align: center;
+display:flex;
+text-align:center;
 font-size: 25px;
 background-color:rgb(156, 124, 176);
-position:fixed;
 list-style:none;
 align-self: center;
+margin: 2px;
 }
 
 
@@ -26,14 +41,35 @@ h1 {
     font-family: 'Abril Fatface', cursive;
     font-size: 65px;
     background-color: rgb(227, 169, 240);
+    border: #3a308c;
+    padding: 3px;
+    margin: 2px;
 
     }
 
-h2 {
-    text-align: justify;
-}
-h3 {
+
+/* h3 {
+    font-family: 'Abril Fatface';
+    font-size:82px;
     text-align: center;
+    border: solid;
+    border-color: #3a308c;
+    color:rgb(112, 195, 29);
+    */
+    
+
+header {
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 65px;
+    background-color: rgb(227, 169, 240);
+    /* font-family: 'Abril Fatface';
+    font-size:82px;
+    text-align: center;
+    border: solid;
+    border-color: #3a308c;
+    color:rgb(112, 195, 29); */
+
 }
     h4 {
         font-family: 'Abril Fatface', cursive;
@@ -42,26 +78,35 @@ h3 {
     }
 
 #pic1 {
-    margin-top:25px;
-    border-radius: 25%;
+    justify-content: center;
+    width: 100%;
     border: 3px solid#3a308c;
+    align-self: center;
 }
-#container1 {
+/* #container1 {
     font-family: 'Press Start 2P';
-    font-size:72px;
-    margin: 26px;
+    font-size:82px;
+    text-align: left;
     border: solid;
     border-color: #3a308c;
     color:rgb(112, 195, 29);
     background-color:black
-}
+} */
 
-#container2 {
+/* #container2 {
     font-family: 'Parisienne';
     font-size: 82px;
-    margin: 26px;
-    border: solid;
+    text-align:justify;
+    border:solid;
     border-color: #3a308c;
+} */
+#pic2 {
+    border-radius: 25%;
+    border-color: #3a308c;
+    border:solid;
+    
+    
+
 }
 
 body  {
