@@ -2,15 +2,37 @@
 <head>
     <link rel="stylesheet" href="./assets/style.css">
 <title>Taylor Vanderwolk</title>
-<nav>
-<ul class="topnav">
-    <li> <a href="#aboutMe"><button class="navButton">About Me</button></a></li>
-    <li> <a href="#myProjects"><button class="navButton">My Projects</button></a></li>
-    <li> <a href="#contactMe"><button class="navButton">Contact Me</button></a></li>
-</ul>
-</nav>
+<div
+ class="navbar">
+    <a href="#aboutme">About Me</a>
+    <a href="#contact">Contact Me</a>
+    <div class="dropdown">
+      <button class="dropbtn">My Projects 
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="#">Code Refactor</a>
+        <a href="#">Portfolio</a>
+        <a href="#">Password Generator</a>
+      </div>
+    </div> 
+  </div>
+
+</div>
 </head>
 <h1>Taylor Bradley VanderWolk</h1>
+
+<style>
+    /*  */
+    </style>
+    </head>
+    <body>
+    
+    
+    
+    </body>
+    </html>
+    
 
 
     <!-- moved navebar to head -->
@@ -27,15 +49,17 @@
     <section id="#aboutMe" class="aboutMe">
         <header id="#aboutMeTitle">About Me</header>
         <h2>
-            <img src="./assets/images/IMG_2234.jpeg" width="300px" height="400px" id="pic2">I am a full-stack wed deveoloper based in Pheonix AZ. 
-            Prior to attending the University of Arizona full-stack flex 12 week bootcamp, I began
-            learning my fundimentals in JavaScript, HTML and css through Codecademy.com. 
+            <img src="./assets/images/IMG_2234.jpeg" width="300px" height="400px" id="pic2">
+            <section class="me">Hello, my name is Taylor. I am a Full Stack Deveoloper based in Pheonix, AZ. 
+              I can handle all the work of databases, servers, systems engineering and clients.
+            I graduated from the University of Arizona Full-Stack Flex 12 week intensive Bootcamp in May, 2022.
+            Prior to that, I learned my fundimentals in JavaScript, HTML and css through Codecademy.</section> 
             <ul class="certificates">
                 <li>    
-                <img src="./assets/images/JSCertificate.png" alt="JS Certificate" width="25%" >
+                <img src="./assets/images/JSCertificate.png" alt="JS Certificate" width="100%" >
                 </li>
                 <li>
-                    <img src="./assets/images/HTMLCertificate.png" alt="HTML Certificate" width="25%">
+                    <img src="./assets/images/HTMLCertificate.png" alt="HTML Certificate" width="100%">
                 </li>
             </ul> 
         </h2>
