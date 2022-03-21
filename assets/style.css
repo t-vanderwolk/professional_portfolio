@@ -14,25 +14,38 @@ display:flex;
 
 }
  ul.certificates {
-    border: 3px solid #1c154b;
+    border: 3px solid #06031A;
     display:block;
     list-style: none;
-    padding: 0%;
+    padding:15px;
+    background-color:rgb(235, 199, 244);
     }
     
-
 .topnav {
 display:flex;
 text-align:center;
 font-size: 25px;
-background-color:rgb(156, 124, 176);
+background-color:rgb(235, 199, 244);
 list-style:none;
 align-self: center;
 margin: 2px;
 }
 
+footer {
+    border:3px solid #1c154b;
+    background-color:  rgb(235, 199, 244);
+}
 
+.myProjects {
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 65px;
+    background-color: rgb(235, 199, 244);
+    border:3px solid #1c154b;
+    padding: 3px;
+    margin: 2px;
 
+}
 
 h1 {
     text-align: center;
@@ -72,6 +85,9 @@ header {
 #pic2 {
     border-radius: 25%;
     border: 3px solid #1c154b;
+    padding:15px;
+    background-color:rgb(235, 199, 244);
+
    
     
     
