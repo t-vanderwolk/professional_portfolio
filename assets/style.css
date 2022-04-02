@@ -1,13 +1,21 @@
 
 
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Parisienne&family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
 .card{
   display: inline-block;
   justify-content: center;
-  border: 5px solid #1c154b;
+  border: 3px solid #1c154b;
   margin: 24px;
   background-color:rgb(235, 199, 244);
-
+  font-size: 20px;
+}
+.classCard{
+  display: inline-block;
+  justify-content: center;
+  border: 3px solid #1c154b;
+  margin: 24px;
+  background-color:rgb(235, 199, 244);
+  font-size: 20px;
 }
 section.me{
     text-align: center;
@@ -46,7 +54,7 @@ footer {
 
 .myProjects {
     text-align: center;
-    font-family: 'Abril Fatface', cursive;
+    font-family: 'Ephesis', cursive;
     font-size: 65px;
     background-color: rgb(235, 199, 244);
     border:3px solid #1c154b;
@@ -57,7 +65,7 @@ footer {
 
 h1 {
     text-align: center;
-    font-family: 'Abril Fatface', cursive;
+    font-family: 'Ephesis', cursive;
     font-size: 65px;
     background-color: rgb(235, 199, 244);
     border:3px solid #1c154b;
@@ -70,7 +78,7 @@ h1 {
 
 header {
     text-align: center;
-    font-family: 'Abril Fatface', cursive;
+    font-family: 'Ephesis', cursive;
     font-size: 65px;
     background-color:  rgb(235, 199, 244);
     border:3px solid #1c154b;
@@ -78,7 +86,7 @@ header {
 
 }
     h4 {
-        font-family: 'Abril Fatface', cursive;
+        font-family: 'Ephesis', cursive;
         text-align: center;
         font-size: 25px;
     }
@@ -86,7 +94,9 @@ header {
 #pic1 {
     justify-content: center;
     width: 100%;
-    border: 3px solid#1c154b;
+    height: 20%;
+    margin-top: 24px;
+    margin-bottom: 24px;
     align-self: center;
 }
 
@@ -110,7 +120,8 @@ aside {
     .navbar {
         overflow: hidden;
         background-color:#1c154b;
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: 'Ephesis', cursive;
+        margin-bottom: 24px;
       }
       
       .navbar a {
@@ -134,7 +145,7 @@ aside {
         color: white;
         padding: 14px 16px;
         background-color: inherit;
-        font-family: inherit;
+        font-family: 'Ephesis', cursive;
         margin: 0;
       }
       
@@ -167,6 +178,6 @@ aside {
       .dropdown:hover .dropdown-content {
         display: block;
       }
-  /* #card-body{
-    border: 3px solid #1c154b;
+  /* .card-text{
+    font-size: 20px;
   } */
