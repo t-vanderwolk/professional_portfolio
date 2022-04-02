@@ -4,8 +4,9 @@
 .card{
   display: inline-block;
   justify-content: center;
-  border: 3px solid #1c154b;
-  margin: 3px;
+  border: 5px solid #1c154b;
+  margin: 24px;
+  background-color:rgb(235, 199, 244);
 
 }
 section.me{
