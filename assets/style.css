@@ -6,38 +6,45 @@
 .card{
   display: inline-block;
   justify-content: center;
-  border: 3px solid #1c154b;
+  border: 3px solid #1d183d;
   margin: 24px;
   background-color:rgb(235, 199, 244);
   font-size: 20px;
 }
-.text-left{
+.text-right{
 font-family: 'Space Mono', monospace;
 color: #eeeaf2;
 font-size: 15px;
 text-align:left;
 font-family: 'Space Mono', monospace;
 background-color:#1d183d;
-display:inline-block;
-margin: 0px;
 }
-p{
-  margin: 0%;
-}
+.text-left{
+  font-family: 'Space Mono', monospace;
+  color: #eeeaf2;
+  font-size: 15px;
+  text-align:left;
+  font-family: 'Space Mono', monospace;
+  background-color:#1d183d;
+  
+  }
+
+
 
 .classCard{
   display: inline-block;
   justify-content: center;
-  border: 3px solid #1c154b;
+  border: 3px solid #1d183d;
   margin: 24px;
   background-color:rgb(235, 199, 244);
   font-size: 20px;
 }
- section.me{
-    text-align: center;
-    font-size: 25px;
-    margin: 24px;
-    border: 3px solid #06031A;
+ .me{
+   
+   text-align: center;
+    font-size: 30px;
+   border: 3px solid #06031A;
+   text-align: right;
     } 
 
 
@@ -76,7 +83,7 @@ align-self: center;
 }
 
 footer {
-    border:3px solid #1c154b;
+    border:3px solid #1d183d;
     background-color:  rgb(235, 199, 244);
 }
 
@@ -86,7 +93,7 @@ footer {
     font-family: 'Shadows Into Light', cursive;
     font-size: 65px;
     background-color: rgb(235, 199, 244);
-    border:3px solid #1c154b;
+    border:3px solid #1d183d;
     padding: 3px;
     margin: 2px;
 
@@ -99,7 +106,7 @@ footer {
     font-family: 'Shadows Into Light', cursive;
     font-size: 65px;
     background-color: rgb(235, 199, 244);
-    border:3px solid #1c154b;
+    border:3px solid #1d183d;
      padding: 3px; 
      margin: 2px; 
 
@@ -109,7 +116,7 @@ footer {
     font-family: 'Shadows Into Light', cursive;
     font-size: 65px;
     background-color: rgb(235, 199, 244);
-    border:3px solid #1c154b;
+    border:3px solid #1d183d;
     padding: 3px;
     margin: 2px;
     }
@@ -123,7 +130,7 @@ header {
     font-family: 'Shadows Into Light', cursive;
     font-size: 65px;
     background-color:  rgb(235, 199, 244);
-    border:3px solid #1c154b;
+    border:3px solid #1d183d;
     
 
 }
@@ -144,7 +151,7 @@ header {
 
 #pic2 {
     border-radius: 25%;
-    border: 3px solid #1c154b;
+    border: 3px solid #1d183d;
     padding:15px;
     background-color:rgb(235, 199, 244);
 
@@ -161,7 +168,7 @@ aside {
 
     .navbar {
         overflow: hidden;
-        background-color:#1c154b;
+        background-color:#1d183d;
         font-family: 'Tinos', serif;
         
       }
