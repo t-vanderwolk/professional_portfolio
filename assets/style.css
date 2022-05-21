@@ -39,13 +39,8 @@ background-color:#1d183d;
   background-color:rgb(235, 199, 244);
   font-size: 20px;
 }
- .me{
-   
-   text-align: center;
-    font-size: 30px;
-   border: 3px solid #06031A;
-   text-align: right;
-    } 
+ 
+  
 
 
   #aboutMeTitle {
@@ -61,16 +56,23 @@ display:flex;
 
 }
  .certificates {
+  margin: 50px;
+  padding: 24px;
+  border: 3px solid #1d183d;
+   background-image: url(./images/il_fullxfull.2259399002_7ujz.webp);
+
+
+   background-size:contain;
   display:flex;
   border: 3px solid #06031A;
   list-style: none;
   padding: 24px; 
   margin: 24px;
-  background-color:rgb(235, 199, 244);
+  /* background-color:rgb(235, 199, 244); */
     
     }
     
- 
+/*  
 .topnav {
 display:flex;
 text-align:center;
@@ -80,7 +82,7 @@ background-color:rgb(235, 199, 244);
 list-style:none;
 align-self: center;
  margin: 2px; 
-}
+} */
 
 footer {
     border:3px solid #1d183d;
@@ -96,7 +98,7 @@ footer {
     border:3px solid #1d183d;
     padding: 3px;
     margin: 2px;
-
+    background-image: url(./images/techpicpink.jpeg);
 }
 
 
@@ -119,6 +121,7 @@ footer {
     border:3px solid #1d183d;
     padding: 3px;
     margin: 2px;
+    /* background-image: url(./images/techpicpink.jpeg); */
     }
     
     
@@ -149,14 +152,16 @@ header {
     align-self: center;
 }
 
-#pic2 {
-    border-radius: 25%;
+/* .pic2 {
+display: block;
     border: 3px solid #1d183d;
-    padding:15px;
+    padding:30px;
     background-color:rgb(235, 199, 244);
-
 }
+ .mycode {
+  text-align: center;
 
+ } */
 
 body  {
 background-color:rgb(237, 220, 244);
@@ -183,7 +188,7 @@ aside {
         text-decoration: none;
       }
       
-      .dropdown {
+       .dropdown {
         float: left;
         overflow: hidden;
        font-family:  'Tinos', serif;
@@ -211,7 +216,7 @@ aside {
         min-width: 160px;
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
         z-index: 1;
-      }
+      } 
       
       .dropdown-content a {
         float: none;
@@ -227,10 +232,39 @@ aside {
       }
       
       .dropdown:hover .dropdown-content {
-        display: block;
-      }
+        display: block; }
+      
    .card-text{
     font-size: 20px;
     text-align: center;
   } 
+  .me {
+   
+   
+      display: block;
+    font-size: 30px;
+    border: 3px solid #06031A;
+    font-weight:bold ;
+  background-image: url(./images/infinitytech.png);
+  background-size: cover;
+ 
+    margin: 50px;
+    padding: 24px;
+    border: 3px solid #1d183d; 
+    text-align: center; 
+  }
+
   
+  .biopic{
+    font-size: 30px;
+ background-image: url(./images/bluetech.jpg); 
+ background-size: contain;
+ margin: 50px;
+ padding: 24px;
+ border: 3px solid #1d183d; 
+}
+ul {
+ background-image: url(./images/keyboard.jpg);
+background-size: cover;
+  
+}
