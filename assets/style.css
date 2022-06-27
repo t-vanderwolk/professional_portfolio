@@ -4,6 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
 .card{
+  
   display: inline-block;
   justify-content: center;
   border: 3px solid #1d183d;
@@ -68,21 +69,11 @@ display:flex;
   list-style: none;
   padding: 24px; 
   margin: 24px;
-  /* background-color:rgb(235, 199, 244); */
+ 
     
     }
     
-/*  
-.topnav {
-display:flex;
-text-align:center;
-font-family:'Tinos', serif;
-font-size: 25px;
-background-color:rgb(235, 199, 244);
-list-style:none;
-align-self: center;
- margin: 2px; 
-} */
+
 
 footer {
     border:3px solid #1d183d;
@@ -248,7 +239,7 @@ aside {
   /* background-image: url(./images/infinitytech.png); */
   /* background-size: cover; */
  
-    margin: 50px;
+    margin: 25px;
     padding: 24px;
     border: 3px solid #1d183d; 
     text-align: center; 
@@ -256,18 +247,25 @@ aside {
   }
 
   
-  .biopic{
-    font-size: 30px;
+.biopic{
+display: inline-block;
+align-items: center;
  background-color: rgb(89, 207, 207); ; 
- background-size: contain;
- border: 3px solid #1d183d; 
- align-self: left;
+ /* margin: 50px;
+ padding: 24px;
+ border: 3px solid #1d183d;  */
+ ;
 }
 
-  
-.biopic{
-  justify-content: left;
+.code{
+  text-align: center;
 }
+
+.bluepic {
+margin: 24px;
+padding: 24px;
+}
+
 #pic2{
 width: 100%;
 align-self: center;
