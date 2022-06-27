@@ -3,6 +3,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Ephesis&family=Tinos&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
 .card{
   
   display: inline-block;
@@ -61,17 +63,13 @@ display:flex;
   padding: 24px;
   border: 3px solid #1d183d;
    background-image: url(./images/il_fullxfull.2259399002_7ujz.webp);
-
-
-   background-size:contain;
+  background-size:contain;
   display:flex;
   border: 3px solid #06031A;
   list-style: none;
   padding: 24px; 
   margin: 24px;
- 
-    
-    }
+ }
     
 
 
@@ -249,21 +247,34 @@ aside {
   
 .biopic{
 display: inline-block;
-align-items: center;
- background-color: rgb(89, 207, 207); ; 
- /* margin: 50px;
- padding: 24px;
- border: 3px solid #1d183d;  */
- ;
+align-items:baseline;
+ background-color: rgb(89, 207, 207); 
+ 
+ padding: 10%;
+ /* border: 3px solid #1d183d;  */ 
+ border: 3px solid  rgb(196, 117, 216); ;
+}
+
+.pic-code{
+  display: flex;
 }
 
 .code{
-  text-align: center;
+  display:inline;
+  text-align: left;
+  border: 24px;
+  margin: 24px;
+  font-family: 'Source Code Pro', monospace; 
+
 }
 
 .bluepic {
-margin: 24px;
-padding: 24px;
+/* margin: 24px; */
+/* padding: 50px;
+padding-bottom: 0%;
+margin-bottom: 0%; */
+border: 3px solid #06031A;
+
 }
 
 #pic2{
@@ -278,14 +289,23 @@ ul {
   background-color: rgb(89, 207, 207);
   margin: 0%;
   padding: 0%;
-  border: 3px solid  rgb(196, 117, 216); ;
+  border: 3px solid  rgb(196, 117, 216); 
 }
 .blockquote-footer{
   margin: 0%;
   padding: 0%;
 }
 .blockquote{
-  margin: 0%;
-  padding: 0%;
-  border: 0%;
+display:inline-block;
+}
+.objective{
+font-family: 'Source Code Pro', monospace;
+display:inline-block;
+text-align:left;
+ background-color: rgb(89, 207, 207); 
+
+
+}
+.row g-0 position-relative {
+  display: flex;
 }
