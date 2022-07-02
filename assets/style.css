@@ -113,7 +113,7 @@ footer {
     font-family: 'Shadows Into Light', cursive;
     font-size: 65px;
     background-color: rgb(235, 199, 244);
-    border-left:3px solid #1d183d;
+    border:3px solid #1d183d;
     /* padding: 3px;
     margin: 2px; */
     /* background-image: url(./images/techpicpink.jpeg); */
@@ -311,4 +311,25 @@ text-align:left;
 }
 .row g-0 position-relative {
   display: flex;
+}
+.work{
+  border:3px solid #1d183d;  
+  background-color: rgb(235, 199, 244);
+}
+.workexperience{
+  text-align: center;
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 65px;
+   background-color:rgb(89, 207, 207);
+  border: 3px solid #1d183d;}
+ /* background-color: rgb(89, 207, 207); */
+ .work-body{
+   background-color:rgb(89, 207, 207) ;
+ }
+
+.kissmark{
+height: 100px;
+width: auto;
+padding-left: 60%;
+background-color: transparent;
 }
