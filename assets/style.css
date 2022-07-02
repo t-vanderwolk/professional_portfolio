@@ -351,9 +351,20 @@ text-align:left;
 }
 .languages{
   list-style: none;
-  text-align: center;
-  border:3px solid #1d183d;  
-  background-color: rgb(235, 199, 244);
+  /* text-align: center; */
+  /* border:3px solid #1d183d;   */
+ background-color:rgb(235, 199, 244) ;
   font-family: 'Source Code Pro', monospace; 
   font-weight: bolder;
+  text-align: center;
+}
+.mylife{
+  font-size: 60px;
+  text-align: center;
+  border:3px solid #1d183d; 
+  }
+
+.bugs{
+  border: 3px solid rgb(235, 199, 244);
+margin: 2%;
 }
