@@ -104,8 +104,8 @@ footer {
     background-color: rgb(235, 199, 244);
     border:3px solid #1d183d;
    
-     padding: 13px; 
-     margin: 12px; 
+     padding: 3px; 
+     margin: 2px; 
 
     } 
     .teamProjects {
@@ -149,7 +149,7 @@ header {
     /* width: 100%; */
    margin: 0%;
     align-self: center;
-    border:9px solid rgb(89, 207, 207);
+    border:3px solid rgb(89, 207, 207);
     
 }
 
@@ -339,9 +339,21 @@ text-align:left;
    background-color:rgb(89, 207, 207) ;
  }
 
-.kissmark{
-height: 100px;
-width: auto;
-padding-left: 80%;
-background-color: transparent;
+.skills{
+  text-align: center;
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 65px;
+  background-color: rgb(235, 199, 244);
+  border:3px solid #1d183d;
+ 
+   padding: 3px; 
+   margin: 2px; 
+}
+.languages{
+  list-style: none;
+  text-align: center;
+  border:3px solid #1d183d;  
+  background-color: rgb(235, 199, 244);
+  font-family: 'Source Code Pro', monospace; 
+  font-weight: bolder;
 }
